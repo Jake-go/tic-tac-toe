@@ -16,7 +16,7 @@ public class Main {
             s = input.nextLine();
 
             if (s.toUpperCase().equals("YES") || s.toUpperCase().equals("Y") || s.equals("")) {
-                System.out.println("The game is being played!");
+                System.out.println("The game is being played! Press Enter to begin");
                 input.nextLine();
                 while (gameRunning) {
                     currentPlayer = playerSwap(currentPlayer);
